@@ -1,16 +1,16 @@
 import React, { Component , Fragment } from "react";
 import ScrollToTop from 'react-scroll-up';
 import Helmet from "../component/common/Helmet";
+import FooterTwo from "../component/footer/FooterTwo";
+import Header from "../component/header/Header";
+import AboutTwo from "../component/HomeLayout/homeOne/AboutTwo";
+import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
 import { FiChevronUp } from "react-icons/fi";
 import ServiceTwo from "../elements/service/ServiceTwo";
 import CounterOne from "../elements/counters/CounterOne";
 import Testimonial from "../elements/Testimonial";
-import AboutTwo from "../component/HomeLayout/homeOne/AboutTwo";
-import Portfolio from "../component/HomeLayout/homeOne/Portfolio";
 import BlogContent from "../elements/blog/BlogContent";
 import BrandTwo from "../elements/BrandTwo";
-import Header from "../component/header/Header";
-import FooterTwo from "../component/footer/FooterTwo";
 import ModalVideo from 'react-modal-video';
 import { videoTagString, VideoTag } from 'react-video-tag';
 
@@ -95,7 +95,7 @@ class StudioAgency extends Component{
                 </div>
                 {/* End Service Area  */}
 
-                {/* Start Portfolio Area */}
+                {/* Start Portfolio Area */} 
                 <div className="portfolio-area ptb--120 bg_color--1">
                     <div className="portfolio-sacousel-inner mb--55 mb_sm--30">
                         <Portfolio />
